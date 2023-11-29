@@ -1,0 +1,121 @@
+.wrapper{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    transform: rotate(-2deg);
+    min-width: 500px;
+}
+.topText{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
+.bottomText{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding: 10px;
+    background-color: #850000;
+}
+.priceWrapper{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    transform: rotate(-2deg);
+}
+.image{
+    width: 80px;
+}
+
+@media screen and (max-width: 1100px){
+    .textWrapper{
+        min-width: 400px;
+    }
+    .wrapper{
+        gap: 30px;
+    }
+    .topText{
+        font-size: 26px;
+    }
+    .bottomText{
+        font-size: 26px;
+    }
+    .priceWrapper{
+        font-size: 26px;
+    }
+    .image{
+        width: 60px;
+    }
+}
+@media screen and (max-width: 900px){
+    .textWrapper{
+        min-width: 320px;
+    }
+    .wrapper{
+        gap: 20px;
+    }
+    .topText{
+        font-size: 20px;
+    }
+    .bottomText{
+        font-size: 20px;
+    }
+    .priceWrapper{
+        font-size: 20px;
+    }
+    .image{
+        width: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    .textWrapper{
+        min-width: 260px;
+    }
+    .wrapper{
+        gap: 10px;
+    }
+    .topText{
+        font-size: 18px;
+    }
+    .bottomText{
+        max-width: 240px;
+        font-size: 18px;
+        width: fit-content;
+    }
+    .priceWrapper{
+        font-size: 18px;
+    }
+    .image{
+        width: 40px;
+    }
+}
+@media screen and (max-width: 600px){
+    .textWrapper{
+        min-width: 220px;
+    }
+    .wrapper{
+        gap: 10px;
+    }
+    .topText{
+        font-size: 14px;
+    }
+    .bottomText{
+        max-width: 220px;
+        font-size: 14px;
+        width: fit-content;
+    }
+    .priceWrapper{
+        font-size: 14px;
+    }
+    .image{
+        width: 40px;
+    }
+}

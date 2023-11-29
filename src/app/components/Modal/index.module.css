@@ -1,0 +1,55 @@
+.wrapper{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.backdrop{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+.modal{
+    border: 10px solid #E4E4E4;
+    border-radius: 20px;
+    background: linear-gradient(295deg, #2E0303 0.25%, #380505 25.53%, #550606 50.8%, #380505 76.07%, #2E0303 101.35%);
+    padding: 20px 35px;
+    max-width: 400px;
+    text-align: center;
+    z-index: 3;
+}
+.modalHeader{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+}
+.modalDescription{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.input{
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2px 20px;
+    letter-spacing: -0.45px;
+    width: 95%;
+    box-sizing: border-box;
+}
