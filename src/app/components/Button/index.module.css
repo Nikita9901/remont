@@ -1,10 +1,10 @@
 .wrapper{
     background-color: #E4E4E4;
     border-radius: 30px;
-    padding: 20px 30px;
+    padding: 25px 30px;
     color: black;
     width: fit-content;
-    font-size: 18px;
+    font-size: 28px;
     cursor: pointer;
     font-style: normal;
     font-weight: 500;
@@ -44,6 +44,15 @@
 }
 .loadingButtonWrapper:hover{
     transform: scale(1.05);
+}
+@media screen and (max-width: 1350px){
+    .wrapper{
+        font-size: 20px;
+        padding: 15px 20px;
+    }
+    .findUs{
+        font-size: 28px;
+    }
 }
 @media screen and (max-width: 1100px){
     .wrapper{

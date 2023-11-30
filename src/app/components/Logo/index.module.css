@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .name{
-    font-size: 48px;
+    font-size: 64px;
     font-weight: 900;
     letter-spacing: -2px;
 }
@@ -14,19 +14,19 @@
     text-align: center;
     padding: 5px 12px;
     background: #E4E4E4;
-    font-size: 24px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     letter-spacing: -1px;
 }
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1500px){
     .name{
-        font-size: 4vw;
+        font-size: 3.5vw;
         letter-spacing: -2px;
     }
     .description{
-        font-size: 2vw;
+        font-size: 1.5vw;
         letter-spacing: -1.5px;
     }
 }

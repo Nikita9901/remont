@@ -24,19 +24,19 @@
 .header{
   width: 100%;
   display: flex;
-  height: 130px;
+  height: 170px;
   align-items: center;
   padding: 0 100px;
 }
 .Icon{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 .locationBlock{
   display: flex;
   gap: 20px;
   align-items: center;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: -0.5px;
   margin-left: auto;
@@ -45,18 +45,18 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: -0.5px;
   text-align: center;
   margin-left: 40px;
 }
 .phoneNumber{
-  font-size: 26px;
+  font-size: 32px;
 }
 .mainTopBlock{
   display: flex;
-  margin-top: 35px;
+  margin-top: 160px;
   justify-content: center;
   align-items: center;
   padding: 0 150px;
@@ -66,26 +66,26 @@
   flex-direction: column;
 }
 .mainTopBlockHeader{
-  font-size: 38px;
+  font-size: 48px;
   font-weight: 700;
   letter-spacing: -1.2px;
   margin-bottom: 20px;
 }
 .mainTopBlockTime{
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 400;
   letter-spacing: -0.65px;
   margin-bottom: 20px;
   line-height: 1.5;
 }
 .mainTopBlockLocation{
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 400;
   letter-spacing: -0.65px;
   margin-bottom: 70px;
 }
 .phoneImage{
-  width: 70%;
+  width: 90%;
 }
 
 .mediumWrapper{
@@ -154,6 +154,12 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 1750px){
+  .mainTopBlock{
+    margin-top: 40px;
+    max-height: 700px;
+  }
+}
 
 @media screen and (max-width: 1500px){
   .mainTopBlock{
