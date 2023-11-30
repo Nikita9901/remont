@@ -42,7 +42,7 @@ export default function Home() {
             </div>
             <div className={styles.mainTopBlock}>
                 <div className={styles.mainTopBlockText}>
-                    <div className={styles.mainTopBlockHeader}>ОТРЕМОНТИРУЕМ УСТРОЙСТВО ПРИ ВАС ЗА 30 МИНУТ!</div>
+                    <div className={styles.mainTopBlockHeader}>РЕМОНТИРУЕМ УСТРОЙСТВО ОТ 30 МИНУТ!</div>
                     <div className={styles.mainTopBlockLocation}>РЕМОНТ СМАРТФОНОВ М. ОКТЯБРЬСКАЯ, М. КУПАЛОВСКАЯ,<br/> М. ПЛОЩАДЬ ЛЕНИНА</div>
                     <div className={styles.mainTopBlockTime}>ГРАФИК РАБОТЫ:<br/>ПН-СБ 10:00 - 20:00 <br/>ВС 10:00 - 18:00</div>
                     <Button/>
