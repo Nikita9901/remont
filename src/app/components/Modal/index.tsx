@@ -2,6 +2,7 @@ import styles from './index.module.css'
 import {useState} from "react";
 import {LoadingButton} from "@/app/components/Button";
 import {Controller, useForm} from "react-hook-form"
+import InputMask from 'react-input-mask';
 
 export type Problems =
     'Замена стекла'
@@ -33,6 +34,7 @@ export default function CustomModal({closeModal}: {closeModal: () => void}) {
         },
     });
     const onSubmit = async ({name, phoneNumber, model, problem}: {name: string; phoneNumber: string; model: string; problem: Problems}) => {
+        setLoading(true);
         try {
             const botToken = '6788367099:AAEeAXGsm8SFo6Kbx_Q3nZZQws13fmqZgpw';
             const chatId = '-1002035422048';
@@ -83,7 +85,7 @@ export default function CustomModal({closeModal}: {closeModal: () => void}) {
                                 control={control}
                                 rules={{required: true}}
                                 render={({field}) => (
-                                    <input placeholder={'ВАШ НОМЕР ТЕЛЕФОНА'} className={styles.input} {...field}/>
+                                    <InputMask mask="+375 (99) 999-99-99" placeholder={'ВАШ НОМЕР ТЕЛЕФОНА'} className={styles.input} {...field}/>
                                 )}
                             />
                             <Controller
@@ -112,7 +114,7 @@ export default function CustomModal({closeModal}: {closeModal: () => void}) {
                                     </select>
                                 )}
                             />
-                            <LoadingButton isLoading={loading} disabled={!isValid}/>
+                            <LoadingButton isLoading={loading} disabled={!isValid || loading}/>
                         </form>
                     </>
                 }
