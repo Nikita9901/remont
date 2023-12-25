@@ -38,7 +38,7 @@ export default function CustomModal({closeModal}: {closeModal: () => void}) {
         try {
             const botToken = '6788367099:AAEeAXGsm8SFo6Kbx_Q3nZZQws13fmqZgpw';
             const chatId = '-1002035422048';
-            const message = `Name: ${name}\nPhone: ${phoneNumber}\nModel: ${model}\nProblem: ${problem}`;
+            const message = `Name: ${name}\nPhone: ${phoneNumber.replace(/[\s()-]/g, '')}\nModel: ${model}\nProblem: ${problem}`;
 
             const res = await fetch(
                 `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(
