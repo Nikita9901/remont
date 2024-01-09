@@ -21,6 +21,8 @@ import Service from "@/app/components/Service";
 export default function Home() {
   return (
     <div className={styles.wrapper}>
+        <h1 className={styles.hided}>Ремонт телефонов минск - CyberService</h1>
+        <h2 className={styles.hided}>Ремонт мобильных телефонов и смартфонов в Минске – рядом с Вами! ✓Срочно ✓цены ниже ✓доставка курьером ✓бесплатная диагностика.</h2>
         <div className={styles.topBlock}>
             <div className={styles.header}>
                 <Logo/>

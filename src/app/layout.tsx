@@ -5,8 +5,8 @@ import './globals.css'
 const lato = Lato({weight: ['400', '900', '300', '700'], subsets: ['latin']})
 
 export const metadata: Metadata = {
-  title: 'Cyber Service',
-  description: 'Ремонт телефонов Минск',
+  title: 'Ремонт телефонов - Cyber Service',
+  description: 'Ремонт мобильных телефонов и смартфонов в Минске – рядом с Вами! ✓Срочно ✓цены ниже ✓доставка курьером ✓бесплатная диагностика.',
 }
 
 export default function RootLayout({

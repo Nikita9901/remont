@@ -4,6 +4,11 @@
   position: relative;
   background: linear-gradient(295deg, #2E0303 0.25%, #380505 25.53%, #550606 50.8%, #380505 76.07%, #2E0303 101.35%);
 }
+.hided{
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
 .topBlock{
   min-height: 100vh;
   position: relative;
