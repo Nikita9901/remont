@@ -49,7 +49,7 @@ export default function Home() {
                     <h3 className={styles.mainTopBlockTime}>ГРАФИК РАБОТЫ:<br/>ПН-СБ 10:00 - 20:00 <br/>ВС 10:00 - 18:00</h3>
                     <Button/>
                 </div>
-                <Image src={phoneAllImage} alt={'ремонт телефонов'}  className={styles.phonweImage}/>
+                <Image src={phoneAllImage} alt={'ремонт телефонов'}  className={styles.phoneImage}/>
             </div>
         </div>
         <div className={styles.transitionBlock}/>
