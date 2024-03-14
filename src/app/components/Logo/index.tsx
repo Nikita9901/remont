@@ -3,8 +3,8 @@ import styles from './index.module.css'
 export default function Logo() {
     return (
         <div className={styles.wrapper}>
-            <div className={styles.name}>CYBERSERVICE</div>
-            <div className={styles.description}>РЕМОНТ ГАДЖЕТОВ</div>
+            <h2 className={styles.name}>CYBERSERVICE</h2>
+            <h1 className={styles.description}>РЕМОНТ ТЕЛЕФОНОВ</h1>
         </div>
     )
 }

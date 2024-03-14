@@ -44,12 +44,12 @@ export default function Home() {
             </div>
             <div className={styles.mainTopBlock}>
                 <div className={styles.mainTopBlockText}>
-                    <div className={styles.mainTopBlockHeader}>РЕМОНТИРУЕМ УСТРОЙСТВО С ДОСТАВКОЙ ОТ 30 МИНУТ!</div>
-                    <div className={styles.mainTopBlockLocation}>РЕМОНТ СМАРТФОНОВ М. ПЛОЩАДЬ ЛЕНИНА</div>
-                    <div className={styles.mainTopBlockTime}>ГРАФИК РАБОТЫ:<br/>ПН-СБ 10:00 - 20:00 <br/>ВС 10:00 - 18:00</div>
+                    <h1 className={styles.mainTopBlockHeader}>РЕМОНТИРУЕМ УСТРОЙСТВО С ДОСТАВКОЙ ОТ 30 МИНУТ!</h1>
+                    <h2 className={styles.mainTopBlockLocation}>РЕМОНТ ТЕЛЕФОНОВ МИНСК</h2>
+                    <h3 className={styles.mainTopBlockTime}>ГРАФИК РАБОТЫ:<br/>ПН-СБ 10:00 - 20:00 <br/>ВС 10:00 - 18:00</h3>
                     <Button/>
                 </div>
-                <Image src={phoneAllImage} alt={'ремонт телефонов'}  className={styles.phoneImage}/>
+                <Image src={phoneAllImage} alt={'ремонт телефонов'}  className={styles.phonweImage}/>
             </div>
         </div>
         <div className={styles.transitionBlock}/>
@@ -57,7 +57,7 @@ export default function Home() {
             <div className={styles.mediumWrapper}>
                 <Image src={earth} alt={earth} className={styles.earthImage}/>
                 <div className={styles.mediumMain}>
-                    <div className={styles.mediumHeader}>СКОЛЬКО СТОЯТ НАШИ УСЛУГИ?</div>
+                    <h2 className={styles.mediumHeader}>СКОЛЬКО СТОЯТ НАШИ УСЛУГИ?</h2>
                     <div className={styles.servicesWrapper}>
                         <Service image={instrument1} topLabel={'ЗАМЕНА'} bottomLabel={'ДИСПЛЕЙНОГО МОДУЛЯ'} price={60}/>
                         <Service image={instrument2} topLabel={'ЗАМЕНА'} bottomLabel={'АККУМУЛЯТОРА'} price={25}/>
